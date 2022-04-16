@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fix: Font-family and compatibility between Linux, Windows, MacOS */
+/* http://rigaux.org/font-family-compatibility-between-linux-.html */
+html, body {
+  font-family: Arial,	Helvetica, Liberation Sans;
+  scroll-behavior: smooth;
+}

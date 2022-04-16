@@ -1,0 +1,6 @@
+{
+  "azureFunctions.deploySubpath": "functions",
+  "azureFunctions.postDeployTask": "yarn install (functions)",
+  "azureFunctions.projectLanguage": "TypeScript",
+  "azureFunctions.projectRuntime": "~3"
+}
