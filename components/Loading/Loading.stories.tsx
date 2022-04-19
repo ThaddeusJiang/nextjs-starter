@@ -4,6 +4,9 @@ import SectionLoading from "./SectionLoading";
 export default {
   component: SectionLoading,
   title: "Components/Loading",
+  parameters: {
+    chromatic: { disableSnapshot: true },
+  },
 } as Meta;
 
 export const SectionLoadingWithoutMessage: React.VFC = () => (

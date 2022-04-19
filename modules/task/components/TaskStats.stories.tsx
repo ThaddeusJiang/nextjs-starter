@@ -1,25 +1,32 @@
 import { Meta, Story } from "@storybook/react";
-import TaskStats from "./TaskStats";
+
 import { Task } from "types";
+import { mockTask } from "data/mocks";
+import TaskStats from "./TaskStats";
 
 const mockData = [
   {
+    ...mockTask,
     "id": "b64e761b-dbee-4972-923b-a9c4472b3694",
     "state": "scheduled",
   },
   {
+    ...mockTask,
     "id": "b64e761b-dbee-4972-923b-a9c4472b3694",
     "state": "scheduled",
   },
   {
+    ...mockTask,
     "id": "b64e761b-dbee-4972-923b-a9c4472b3694",
     "state": "scheduled",
   },
   {
+    ...mockTask,
     "id": "b64e761b-dbee-4972-923b-a9c4472b3694",
     "state": "succeeded",
   },
   {
+    ...mockTask,
     "id": "b64e761b-dbee-4972-923b-a9c4472b3694",
     "state": "failed",
   },
